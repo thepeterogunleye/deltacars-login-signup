@@ -1,0 +1,143 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container-index{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.picture-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-image: url(/assets/images/car1.jpg);
+    background-size: 100%;
+    width: 50vw;
+    height: 100vh;
+    margin: 0;
+    padding: 40px 50px 60px 60px;
+}
+.picture-area img{
+    position: top;
+    padding-bottom: 70px;
+}
+.picture-area h1{
+    padding-top: 80px;
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 0;
+    color: white;
+}
+.picture-area h6{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.form-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 50vw;
+    height: 111vh;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+.form-area h1,h5{
+    text-align: center;
+    margin: 0;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+}
+.input-area input{
+    margin: 5px;
+    width: 20vw;
+    height: 30px;
+    border: solid 0.5px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.checkbox-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    gap: 60px;
+}
+.checkbox-area a, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #12BACF;
+    margin: 0;
+    font-size: 10px;
+}
+.checkbox-area a:hover{
+    color: black;
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: #12BACF;
+    align-content: center;
+    border-style: none;
+    margin-top: 50px;
+    width: 22vw;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+button:hover{
+    color: #12BACF;
+    background-color: black;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #12BACF;
+}
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.signup-picture-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-image: url();
+    background-size: 100%;
+    width: 50vw;
+    height: 100vh;
+    margin: 0;
+    padding-right: 0;
+ 
+}
+.signup-form-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
