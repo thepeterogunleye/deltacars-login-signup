@@ -1,4 +1,6 @@
 body{
+    width: 100vw;
+    height: 100vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
@@ -120,70 +122,178 @@ a:hover{
 .signup-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     width: 100vw;
     height: 100vh;
-    gap: 10px;
 }
 .signup-picture-area{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-image: url(/assets/images/carsignup.jpg);
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     width: 50vw;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
- 
+    padding: 0;
 }
 .signup-picture-area img{
     position: relative;
     margin-left: 40px;
 }
-.signup-picture-area h1, h6{
-    padding-left: 40px;
-    margin: 5px;
-    padding-left: 40px;
+.signup-picture-area h1{
+    padding: 200px 0 0 50px;
+    text-align: left;
+    margin-top: 30px;
+    color: white;
+}
+.signup-picture-area h6{
+    padding: 0 0 0 50px;
+    margin: 0;
 }
 .signup-form-area{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    background-size: 100vw;
-    background-position: fixed;
-    width: 50vw;
+    width: 50%;
+    margin: 0;
+    padding: 0;
     height: 100vh;
 }
-.signup-form-area h1, h3{
-    text-align: center;
-    margin-bottom: 10px;
+.signupform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 30vw;
+    height: 100%;
+    margin: 0;
+    padding: 20px 0 0 20px;
 }
-.signup-form-area p{
-    font-size: medium;
+.signupform h1,h3{
     text-align: center;
-    color: black;
-    margin: 10px;
 }
 .external-verification{
     display: flex;
     flex-direction: row;
+    gap: 40px;
+    justify-content: space-between;
+}
+.external-verification input{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.or-text{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.external-verification input{ margin: 5px;
-    width: 20vw;
-    height: 30px;
-    border: solid 0.5px black;
-    border-radius: 10px;
-    padding: 10px;
+    width: 30vw;
+    margin: 10px;
 }
 .name-email{
     display: flex;
     flex-direction: column;
+    justify-items: left;
+    margin: 0;
+}
+.name-email label{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin: 10px;
+    text-align: left;
+}
+.name-email input{
+    display: flex;
+    flex-direction: column;
     justify-content: left;
-    align-items: center; 
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.password{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+.password label{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin: 10px;
+    text-align: left;
+}
+.password input{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.forget-password{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 150px;
+    margin: 20px;
+}
+.password {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    gap: 120px;
+    margin-bottom: 3px;
+}
+.signup-password{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin: 0;
+}
+.signup-password label{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin: 10px;
+    text-align: left;
+}
+.signup-password input{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 70%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.signup-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+.signup-terms{
+    display: flex;
+    justify-content: center;
+    margin: 3px 0 1px 0;
+  
+}
+.signup-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.signup-footer a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #12BACF;
 }
