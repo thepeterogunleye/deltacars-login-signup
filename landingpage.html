@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to Delta Cars </title>
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#login" class="btn">Login</a></li>
+                    <li><a href="#signup" class="btn primary-btn">Sign Up</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Delta Cars</h1>
+            <p>Your Journey Begins Here...</p>
+            <a href="#services" class="btn primary-btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="jack-lucas-smith-bvxHI7rTKbo-unsplash.jpg" alt="Car Rental">
+                    <h3>Car Rental</h3>
+                    <p>Rent a car for your adventures at competitive prices.</p>
+                </div>
+                <div class="service-item">
+                    <img src="dima-panyukov-EiYV7GWsR78-unsplash.jpg" alt="Luxury Cars">
+                    <h3>Luxury Cars</h3>
+                    <p>Experience luxury with our premium car collections.</p>
+                </div>
+                <div class="service-item">
+                    <img src="juan-rojas-Pghbn72LDDw-unsplash.jpg" alt="Chauffeur Services">
+                    <h3>Chauffeur Services</h3>
+                    <p>Travel in style with our professional chauffeur services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Delta Cars</h2>
+            <p>Welcome to Delta Cars, where your ride is our pride! Whether you're hitting the road for a family
+                adventure or cruising in style with one of our luxury models, we've got the perfect car for you. Our
+                fleet is diverse and always ready to roll, offering comfort and quality every mile of the way. Choose
+                Delta Cars for a smooth ride and a hassle-free experience! Whether you're planning a family outing or
+                want to treat yourself to a bit of luxury, we've got the wheels that match your style. Our wide range of
+                vehicles ensures there's something for everyone, promising you comfort, quality, and good vibes on every
+                trip. Hop in, buckle up, and let's hit the road together!</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-items">
+                <div class="testimonial-item">
+                    <p>"Delta Cars made my trip seamless and enjoyable. I Highly recommend!"</p>
+                    <h3>- Draco </h3>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Great service and amazing cars. I'll definitely use Delta Cars again!"</p>
+                    <h3>- Mrs Nancy </h3>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Professional staff and top-notch vehicles. Delta Cars is my go-to choice!"</p>
+                    <h3>- Mr Fish </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Delta Cars. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for the responsive menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('show-menu');
+        });
+    </script>
+</body>
+
+</html>
