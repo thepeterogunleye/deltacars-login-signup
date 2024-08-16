@@ -90,19 +90,19 @@ body{
 .checkbox-area a:hover{
     color: black;
 }
-button{
+.login-button button{
     display: flex;
     justify-content: center;
     background-color: #12BACF;
     align-content: center;
     border-style: none;
     margin-top: 50px;
-    width: 22vw;
+    width: 20vw;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     margin-left: 15px;
 }
-button:hover{
+.login-button button:hover{
     color: #12BACF;
     background-color: black;
     cursor: pointer;
@@ -273,11 +273,22 @@ a:hover{
     border-radius: 5px;
     border: solid 1px black;
 }
-.signup-button{
+.signup-button button{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin: 5px;
+    background-color: #12BACF;
+    align-content: center;
+    border-style: none;
+    margin-top: 10px;
+    width: 33vw;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+   
+}
+.signup-button button:hover{
+    color: #12BACF;
+    background-color: black;
+    cursor: pointer;
 }
 .signup-terms{
     display: flex;
@@ -327,7 +338,7 @@ html{
 
 /* Header Styles */
 header {
-    background-color: #00509e;
+    background-color: #12BACF;
     color: #fff;
     padding: 20px 0;
     display: flex;
@@ -337,9 +348,8 @@ header {
 }
 
 header .logo img {
-
-    color: #fff;
- 
+    display: flex;
+    color: white;
     margin: auto;
 }
 
@@ -354,7 +364,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     font-weight: 700;
     transition: color 0.3s ease;
     padding: 10px 20px;
@@ -373,7 +383,7 @@ nav ul li a.btn {
 
 nav ul li a.primary-btn {
     background-color: #fff;
-    color: #00509e;
+    color: #12BACF;
 }
 
 nav ul li a.primary-btn:hover {
@@ -403,7 +413,7 @@ nav ul.show-menu {
     top: 70px;
     left: 0;
     right: 0;
-    background-color: #00509e;
+    background-color: white;
     flex-direction: column;
     text-align: center;
     padding: 10px 0;
@@ -425,13 +435,13 @@ nav ul.show-menu li a {
     background-position: center;
     padding: 150px 0;
     text-align: center;
-    color: #fff;
+    color: white;
     position: relative;
 }
 
 .hero::after {
     content: '';
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #12BACF;
     position: absolute;
     top: 0;
     left: 0;
@@ -448,11 +458,13 @@ nav ul.show-menu li a {
 .hero h1 {
     font-size: 48px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .hero p {
     font-size: 24px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .hero .btn {
@@ -464,7 +476,7 @@ nav ul.show-menu li a {
 }
 
 .hero .btn:hover {
-    background-color: #00509e;
+    background-color: #12BACF;
     color: #fff;
 }
 
@@ -478,7 +490,7 @@ nav ul.show-menu li a {
 .services h2 {
     font-size: 36px;
     margin-bottom: 30px;
-    color: #00509e;
+    color: #12BACF;
 }
 
 .service-items {
@@ -510,7 +522,7 @@ nav ul.show-menu li a {
 .service-item h3 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #00509e;
+    color: #12BACF;
 }
 
 .service-item p {
@@ -521,14 +533,15 @@ nav ul.show-menu li a {
 /* About Section */
 .about {
     padding: 50px 0;
-    background-color: #00509e;
+    background-color: #12BACF;
     text-align: center;
-    color: #fff;
+    color: white;
 }
 
 .about h2 {
     font-size: 36px;
     margin-bottom: 30px;
+    color: white;
 }
 
 .about p {
@@ -536,6 +549,7 @@ nav ul.show-menu li a {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.6;
+    color: white;
 }
 
 /* Testimonials Section */
@@ -548,7 +562,7 @@ nav ul.show-menu li a {
 .testimonials h2 {
     font-size: 36px;
     margin-bottom: 30px;
-    color: #00509e;
+    color: #12BACF;
 }
 
 .testimonial-items {
@@ -575,7 +589,7 @@ nav ul.show-menu li a {
 
 .testimonial-item h3 {
     font-size: 18px;
-    color: #666;
+    color: #12BACF;
 }
 
 /* Contact Section */
@@ -588,7 +602,7 @@ nav ul.show-menu li a {
 .contact h2 {
     font-size: 36px;
     margin-bottom: 30px;
-    color: #00509e;
+    color: #12BACF;
 }
 
 .contact form {
@@ -607,7 +621,7 @@ nav ul.show-menu li a {
 }
 
 .contact form button {
-    background-color: #00509e;
+    background-color: #12BACF;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -617,19 +631,20 @@ nav ul.show-menu li a {
 }
 
 .contact form button:hover {
-    background-color: #003f7f;
+    background-color: #12BACF;
 }
 
 /* Footer Section */
 footer {
-    background-color: #00509e;
-    color: #fff;
+    background-color: #12BACF;
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
 
 footer p {
     font-size: 14px;
+    color: white;
 }
 
 /* Media Queries for Responsiveness */
