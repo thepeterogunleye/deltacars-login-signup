@@ -329,7 +329,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  
 }
 html{
     scroll-behavior: smooth;
@@ -429,7 +428,7 @@ nav ul.show-menu li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('damian-kamp-neDqLop2k5U-unsplash.jpg');
+    background-image: url('/assets/damian-kamp-neDqLop2k5U-unsplash.jpg');
     background-size: cover;
     background-position: center;
     padding: 150px 0;
@@ -440,7 +439,6 @@ nav ul.show-menu li a {
 
 .hero::after {
     content: '';
-    background-color: #12BACF;
     position: absolute;
     top: 0;
     left: 0;
